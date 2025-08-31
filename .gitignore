@@ -1,0 +1,32 @@
+# Python virtual environment
+gpu_venv/
+.venv/
+venv/
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.pyc
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# IDE-specific files (e.g., VS Code)
+.vscode/
+.idea/
+
+# Operating System files
+.DS_Store
+Thumbs.db
+
+# Streamlit cache
+.streamlit/
+
+# Data files (often too large or sensitive for Git)
+data/processed/
+data/raw/
+outputs/
+
+# Model files (often too large for Git, typically managed via DVC or Git LFS)
+# If you intend to use Git LFS or DVC later, you can remove these lines
+# For now, it's safer to ignore large binary files
+models/
